@@ -1,12 +1,19 @@
+/* center bird */
+section{position: absolute;
+top: 50%;
+left: 50%;
+margin-right: -50%;
+transform: translate(-50%, -50%)
+}
+/* bird size */
 #bird{
   width: 200px;
-  
+  padding: 40px;
+  transform-origin: bottom center;
+  /* animation: flyIn 2s 0s 1 ease-out; */
+  animation: slideUp .5s 3.1s 1 ease-out;
 }
-
-path#Body{
-  z-index: -1;
-}
-
+/* tail and wing animation */
 path#Tail1,
 path#Tail2{
   z-index: 10;
@@ -28,12 +35,13 @@ path#Wing3{
 }
 path#Wing4{
   transform-origin: bottom right;
-  animation: wingMove4 .1s 3.3s 5 ease;
+  animation: wingMove4 .1s 3.3s 4 ease;
 }
 path#Wing5{
   transform-origin: bottom right;
-  animation: wingMove5 .1s 3.2s 5 ease;
+  animation: wingMove5 .1s 3.2s 4 ease;
 }
+
 
 /* Keyframes */
 
@@ -42,6 +50,7 @@ path#Wing5{
   0%, 75% { transform: rotate(0deg); }
   50%, 100% { transform: rotate(75deg); }
 }
+
 @keyframes wingMove {
   0%, 75% { transform: rotate(20deg); }
   50%, 100% { transform: rotate(-105deg); }
@@ -61,4 +70,19 @@ path#Wing5{
 @keyframes wingMove5 {
   0%, 75% { transform: rotate(0deg); }
   50%, 100% { transform: rotate(-65deg); }
+}
+
+@keyframes slideUp {
+  0% { transform: translateY( 0px );}
+  25% { transform: translateY(-30px); }
+  50% { transform: translateY(-75px); }
+  75% { transform: translateY(-25px); }
+  100% { transform: translateY(0px); }
+}
+
+@keyFrames flyIn {
+  0% { transform: scale( 0 );}
+  25% { transform: scale( .25 );}
+  50% { transform: scale( .6 ); }
+  100% { transform: scale( 200px ); }
 }

@@ -1,10 +1,20 @@
+body {
+  display: flex;
+  min-height: 100vh;
+  margin: 0;
+}
+
+section {
+  margin: auto;
+}
+
 /* center bird */
-section{position: absolute;
+/* section{position: absolute;
 top: 50%;
 left: 50%;
 margin-right: -50%;
 transform: translate(-50%, -50%)
-}
+} */
 /* bird size */
 #bird{
   width: 200px;

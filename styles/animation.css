@@ -34,12 +34,12 @@ path#Wing3{
   animation: wingMove3 .1s 3.2s 5 ease;
 }
 path#Wing4{
-  transform-origin: bottom right;
+  transform-origin: top right;
   animation: wingMove4 .1s 3.3s 4 ease;
 }
 path#Wing5{
-  transform-origin: bottom right;
-  animation: wingMove5 .1s 3.2s 4 ease;
+  transform-origin: top right;
+  animation: wingMove5 .09s 3.4s 3 ease;
 }
 
 
@@ -69,7 +69,7 @@ path#Wing5{
 }
 @keyframes wingMove5 {
   0%, 75% { transform: rotate(0deg); }
-  50%, 100% { transform: rotate(-65deg); }
+  50%, 100% { transform: rotate(-80deg); }
 }
 
 @keyframes slideUp {

@@ -30,51 +30,143 @@ svg {
 path#Tail1,
 path#Tail2 {
   z-index: 10;
-  -webkit-transform-origin: top left;
-          transform-origin: top left;
+  -webkit-transform-origin: 0% 0%;
+          transform-origin: 0% 0%;
+          
 
-  -webkit-animation: tailMove 0.3s 2s 2 ease;
+  /* -webkit-animation: tailMove 0.3s 2s 2 ease; */
+          -webkit-animation-name: tailMove;
+          -webkit-animation-duration: 0.3s;
+          -webkit-animation-iteration-count: 2;
+          -webkit-animation-direction: alternate;
+          -webkit-animation-timing-function: ease;
+          -webkit-animation-fill-mode: forwards;
+          -webkit-animation-delay: 2s;
 
-          animation: tailMove 0.3s 2s 2 ease;
+          /* animation: tailMove 0.3s 2s 2 ease; */
+          animation-name: tailMove;
+          animation-duration: 0.3s;
+          animation-iteration-count: 2;
+          animation-direction: inital;
+          animation-timing-function: ease;
+          animation-fill-mode: forwards;
+          animation-delay: 2s;
 }
 
 path#Wing1 {
-  -webkit-transform-origin: bottom right;
-          transform-origin: bottom right;
+  -webkit-transform-origin: 100% 100%;
+          transform-origin: 100% 100%;
 
-  -webkit-animation: wingMove 0.1s 3s 5 ease;
+  /* -webkit-animation: wingMove 0.1s 3s 5 ease; */
+  -webkit-animation-name: wingMove;
+  -webkit-animation-duration: 0.1s;
+  -webkit-animation-iteration-count: 5;
+  -webkit-animation-direction: none;
+  -webkit-animation-timing-function: ease;
+  -webkit-animation-fill-mode: forwards;
+  -webkit-animation-delay: 3s;
 
-          animation: wingMove 0.1s 3s 5 ease;
+  /* animation: wingMove 0.1s 3s 5 ease; */
+  animation-name: wingMove;
+  animation-duration: 0.1s;
+  animation-iteration-count: 5;
+  animation-direction: alternate;
+  animation-timing-function: ease;
+  animation-fill-mode: forwards;
+  animation-delay: 3s;
 }
 path#Wing2 {
-  -webkit-transform-origin: bottom right;
-          transform-origin: bottom right;
+  -webkit-transform-origin: 100% 100%;
+          transform-origin: 100% 100%;
 
-  -webkit-animation: wingMove2 0.1s 3.1s 5 ease;
+  /* -webkit-animation: wingMove2 0.1s 3.1s 5 ease; */
+  -webkit-animation-name: wingMove2;
+  -webkit-animation-duration: 0.1s;
+  -webkit-animation-iteration-count: 5;
+  -webkit-animation-direction: alternate;
+  -webkit-animation-timing-function: ease;
+  -webkit-animation-fill-mode: forwards;
+  -webkit-animation-delay: 3s;
 
-          animation: wingMove2 0.1s 3.1s 5 ease;
+  /* animation: wingMove2 0.1s 3.1s 5 ease; */
+  animation-name: wingMove2;
+  animation-duration: 0.1s;
+  animation-iteration-count: 5;
+  animation-direction: alternate;
+  animation-timing-function: ease;
+  animation-fill-mode: forwards;
+  animation-delay: 3s;
 }
 path#Wing3 {
-  -webkit-transform-origin: bottom right;
-          transform-origin: bottom right;
+  -webkit-transform-origin: 100% 100%;
+          transform-origin: 100% 100%;
 
-  -webkit-animation: wingMove3 0.1s 3.2s 5 ease;
+  /* -webkit-animation: wingMove3 0.1s 3.2s 5 ease; */
+  -webkit-animation-name: wingMove3;
+  -webkit-animation-duration: 0.1s;
+  -webkit-animation-iteration-count: 5;
+  -webkit-animation-direction: alternate;
+  -webkit-animation-timing-function: ease;
+  -webkit-animation-fill-mode: forwards;
+  -webkit-animation-delay: 3.2s;
 
-          animation: wingMove3 0.1s 3.2s 5 ease;
+  /* animation: wingMove3 0.1s 3.2s 5 ease; */
+  animation-name: wingMove3;
+  animation-duration: 0.1s;
+  animation-iteration-count: 5;
+  animation-direction: alternate;
+  animation-timing-function: ease;
+  animation-fill-mode: forwards;
+  animation-delay: 3.2s;
 }
 path#Wing4 {
-  -webkit-transform-origin: top right;
-          transform-origin: top right;
-  -webkit-animation: wingMove4 0.1s 3.3s 4 ease;
-  animation: wingMove4 0.1s 3.3s 4 ease;
+  /* -webkit-transform-origin: top right;
+          transform-origin: top right; */
+    -webkit-transform-origin: 100% 100%;
+            transform-origin: 100% 100%;
+
+  /* -webkit-animation: wingMove4 0.1s 3.3s 4 ease; */
+  -webkit-animation-name: wingMove4;
+  -webkit-animation-duration: 0.1s;
+  -webkit-animation-iteration-count: 4;
+  -webkit-animation-direction: alternate;
+  -webkit-animation-timing-function: ease;
+  -webkit-animation-fill-mode: forwards;
+  -webkit-animation-delay: 3.3s;
+
+
+  /* animation: wingMove4 0.1s 3.3s 4 ease; */
+  animation-name: wingMove4;
+  animation-duration: 0.1s;
+  animation-iteration-count: 5;
+  animation-direction: alternate;
+  animation-timing-function: ease;
+  animation-fill-mode: forwards;
+  animation-delay: 3.3s;
 }
 path#Wing5 {
-  -webkit-transform-origin: top right;
-          transform-origin: top right;
+  /* -webkit-transform-origin: top right;
+          transform-origin: top right; */
+  -webkit-transform-origin: 100% 100%;
+          transform-origin: 100% 100%;
 
-  -webkit-animation: wingMove5 0.09s 3.4s 3 ease;
+  /* -webkit-animation: wingMove5 0.09s 3.4s 3 ease; */
+  -webkit-animation-name: wingMove5;
+  -webkit-animation-duration: 0.09s;
+  -webkit-animation-iteration-count: 3;
+  -webkit-animation-direction: alternate;
+  -webkit-animation-timing-function: ease;
+  -webkit-animation-fill-mode: forwards;
+  -webkit-animation-delay: 3.4s;
 
-          animation: wingMove5 0.09s 3.4s 3 ease;
+  /* animation: wingMove5 0.09s 3.4s 3 ease; */
+  animation-name: wingMove5;
+  animation-duration: 0.09s;
+  animation-iteration-count: 3;
+  animation-direction: alternate;
+  animation-timing-function: ease;
+  animation-fill-mode: forwards;
+  animation-delay: 3.4s;
 }
 
 /* Keyframes */
@@ -87,8 +179,8 @@ path#Wing5 {
   }
   50%,
   100% {
-    -webkit-transform: rotate(75deg);
-            transform: rotate(75deg);
+    -webkit-transform: rotate(-75deg);
+            transform: rotate(-75deg);
   }
 }
 
@@ -110,10 +202,13 @@ path#Wing5 {
     -webkit-transform: rotate(20deg);
             transform: rotate(20deg);
   }
-  50%,
-  100% {
+  50% {
     -webkit-transform: rotate(-105deg);
             transform: rotate(-105deg);
+  }
+  100% {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
   }
 }
 @keyframes wingMove {
@@ -122,10 +217,13 @@ path#Wing5 {
     -webkit-transform: rotate(20deg);
             transform: rotate(20deg);
   }
-  50%,
-  100% {
+  50% {
     -webkit-transform: rotate(-105deg);
             transform: rotate(-105deg);
+  }
+  100% {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
   }
 }
 @-webkit-keyframes wingMove2 {
@@ -134,10 +232,13 @@ path#Wing5 {
     -webkit-transform: rotate(15deg);
             transform: rotate(15deg);
   }
-  50%,
-  100% {
+  50% {
     -webkit-transform: rotate(-95deg);
             transform: rotate(-95deg);
+  }
+  100% {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
   }
 }
 @keyframes wingMove2 {
@@ -146,10 +247,13 @@ path#Wing5 {
     -webkit-transform: rotate(15deg);
             transform: rotate(15deg);
   }
-  50%,
-  100% {
+  50% {
     -webkit-transform: rotate(-95deg);
             transform: rotate(-95deg);
+  }
+  100% {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
   }
 }
 @-webkit-keyframes wingMove3 {
@@ -158,10 +262,13 @@ path#Wing5 {
     -webkit-transform: rotate(10deg);
             transform: rotate(10deg);
   }
-  50%,
+  50% {
+    -webkit-transform: rotate(85deg);
+            transform: rotate(85deg);
+  }
   100% {
-    -webkit-transform: rotate(-85deg);
-            transform: rotate(-85deg);
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
   }
 }
 @keyframes wingMove3 {
@@ -170,10 +277,13 @@ path#Wing5 {
     -webkit-transform: rotate(10deg);
             transform: rotate(10deg);
   }
-  50%,
+  50% {
+    -webkit-transform: rotate(85deg);
+            transform: rotate(85deg);
+  }
   100% {
-    -webkit-transform: rotate(-85deg);
-            transform: rotate(-85deg);
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
   }
 }
 @-webkit-keyframes wingMove4 {
@@ -182,10 +292,13 @@ path#Wing5 {
     -webkit-transform: rotate(5deg);
             transform: rotate(5deg);
   }
-  50%,
+  50% {
+    -webkit-transform: rotate(75deg);
+            transform: rotate(75deg);
+  }
   100% {
-    -webkit-transform: rotate(-75deg);
-            transform: rotate(-75deg);
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
   }
 }
 @keyframes wingMove4 {
@@ -194,10 +307,13 @@ path#Wing5 {
     -webkit-transform: rotate(5deg);
             transform: rotate(5deg);
   }
-  50%,
+  50% {
+    -webkit-transform: rotate(75deg);
+            transform: rotate(75deg);
+  }
   100% {
-    -webkit-transform: rotate(-75deg);
-            transform: rotate(-75deg);
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
   }
 }
 @-webkit-keyframes wingMove5 {
@@ -206,10 +322,13 @@ path#Wing5 {
     -webkit-transform: rotate(0deg);
             transform: rotate(0deg);
   }
-  50%,
+  50% {
+    -webkit-transform: rotate(80deg);
+            transform: rotate(80deg);
+  }
   100% {
-    -webkit-transform: rotate(-80deg);
-            transform: rotate(-80deg);
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
   }
 }
 @keyframes wingMove5 {
@@ -218,10 +337,13 @@ path#Wing5 {
     -webkit-transform: rotate(0deg);
             transform: rotate(0deg);
   }
-  50%,
+  50% {
+    -webkit-transform: rotate(80deg);
+            transform: rotate(80deg);
+  }
   100% {
-    -webkit-transform: rotate(-80deg);
-            transform: rotate(-80deg);
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
   }
 }
 @-webkit-keyframes slideUp {
@@ -282,8 +404,8 @@ path#Wing5 {
             transform: scale(0.6);
   }
   100% {
-    -webkit-transform: scale(200px);
-            transform: scale(200px);
+    -webkit-transform: scale(2);
+            transform: scale(2);
   }
 }
 @keyframes flyIn {

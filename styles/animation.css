@@ -9,20 +9,22 @@ section {
 }
 
 /* Bird color */
-svg defs stop {
+/* svg defs stop {
   stop-color: black;
-}
+} */
 
-/* bird size */
-#bird {
-  width: 200px;
+/* logo size */
+svg {
+  width: 600px;
   padding: 10px;
+
+}
+/* svg {
   -webkit-transform-origin: bottom center;
           transform-origin: bottom center;
-  /* animation: flyIn 2s 0s 1 ease-out; */
   -webkit-animation: slideUp 0.5s 3.1s 1 ease-out;
           animation: slideUp 0.5s 3.1s 1 ease-out;
-}
+} */
 
 /* tail and wing animation */
 path#Tail1,

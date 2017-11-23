@@ -1,7 +1,5 @@
 /* center bird */
 body {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
   min-height: 100vh;
   margin: 0;
@@ -9,15 +7,6 @@ body {
 section {
   margin: auto;
 }
-
-/* old center bird */
-/* section{
-position: absolute;
-top: 50%;
-left: 50%;
-margin-right: -50%;
-transform: translate(-50%, -50%)
-} */
 
 /* Bird color */
 svg defs stop {
